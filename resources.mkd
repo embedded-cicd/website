@@ -1,0 +1,15 @@
+# Resources
+
+## Algorithms
+* [Self Calibrating Systems](http://www.ganssle.com/articles/aselfcal.htm)  
+  Algorithm to make an instrument read correct values without ever manually setting gain and offset coefficients.
+
+## Architecture
+* [Continuous Integration](http://aosabook.org/en/integration.html) (aosabook.org)
+
+## IoT
+* [IoT Security Maturity Model](https://www.iiconsortium.org/pdf/SMM_Description_and_Intended_Use_2018-04-09.pdf)
+
+## Websites/ blogs to watch for new ideas
+* [Embedded Artistry - Sofware References](https://embeddedartistry.com/software-references/)
+
