@@ -1,0 +1,53 @@
+# CI/CD pipeline for embedded systems - resource collection
+
+[![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept "Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.")
+
+Collection of resources for building a FOSS CI/CD pipeline for embedded systems
+
+
+## Goals
+
+The ultimate goal is to create a freely available body of knowledge that lowers the barrier for CI/CD newcommers to automate the build, test, and deployment of software for embedded systems. I would like to see such a pipline being implemented on Free and Open Source Software (FOSS).
+
+I consider this an interesting goal, as there seems to be a shortage of ready to use information (experiences, schematics, frameworks) in regard to automated HiL and SiL tests. On the other hand, the rising popularity of IoT increases the attack surface of the embedded devices and makes it ever more important that all companies and also FOSS projects have access to the knowledge necessary for implementing the whole CI/CD pipeline for their embedded systems.
+
+These are some topics this might be about - just from the top of my head:
+* CI: build and (functional) test automation
+* CD: deployment automation and monitoring
+* Possible system and sub-system architectures  
+  including benefits and shortcommings
+* Available software that can be used
+* Resources: Books, blogs, websites, ...
+* To a lesser extend: How CI/CD complements unit testing and TDD.
+
+
+## Contributing
+
+This resource collection is just emerging and I welcome suggestions in the form of issues or pull requests:
+
+1. [Fork it][fork]
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit all your changes: `git commit -am 'add some feature'`
+4. Push to your feature branch: `git push origin my-new-feature`
+5. Submit a [pull request][pr]
+
+
+## License
+
+**not decided yet**
+
+
+## Comparable projects
+
+**Please add them**
+
+
+## Source
+
+You can get the newest version from the [project's website][project-website].
+
+
+
+[fork]: https://help.github.com/articles/fork-a-repo/
+[pr]: https://help.github.com/articles/creating-a-pull-request/
+[project-website]: http://github.com/makomi/embedded_cicd/
