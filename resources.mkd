@@ -6,6 +6,12 @@
 
 ## Architecture
 * [Continuous Integration](http://aosabook.org/en/integration.html) (aosabook.org)
+* "Testing Embedded Software" , Bart Broekman and Edwin Notenboom. Addison-Wesley, 2003, ISBN 9-780321-159861  
+  *Appendix C: Blueprint of an automated test suite*  
+  * Test data, Start, Planner, Reader, Translator, Test actions, Error recovery, Reporting
+  * Initialization: test suite, system under test, additional test equipment, recovery of the state
+  * Synchronization between the test suite and the system under test
+  * Communication between the system under test and the test suite
 
 ## IoT
 * [IoT Security Maturity Model](https://www.iiconsortium.org/pdf/SMM_Description_and_Intended_Use_2018-04-09.pdf)
