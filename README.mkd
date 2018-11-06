@@ -7,7 +7,7 @@ Collection of resources for building a FOSS CI/CD pipeline for embedded systems
 
 ## Goals
 
-The ultimate goal is to create a freely available body of knowledge that lowers the barrier for CI/CD newcommers to automate the build, test, and deployment of software for embedded systems. I would like to see such a pipline being implemented on Free and Open Source Software (FOSS).
+The ultimate goal is to create a freely available body of knowledge that lowers the barrier of entry to CI/CD for small teams/ newcommers to automate the build, test, and deployment of software for embedded systems. I would like to see such a pipline being implemented on Free and Open Source Software (FOSS).
 
 I consider this an interesting goal, as there seems to be a shortage of ready to use information (experiences, schematics, frameworks) in regard to automated HiL and SiL tests. On the other hand, the rising popularity of IoT increases the attack surface of the embedded devices and makes it ever more important that all companies and also FOSS projects have access to the knowledge necessary for implementing the whole CI/CD pipeline for their embedded systems.
 
@@ -34,7 +34,7 @@ This resource collection is just emerging and I welcome suggestions in the form 
 
 ## License
 
-**not decided yet**
+**Not decided yet**
 
 
 ## Comparable projects
