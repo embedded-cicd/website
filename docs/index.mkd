@@ -1,0 +1,18 @@
+# Welcome
+
+!!! todo
+    **Add basic content**
+    * Add milestones.
+    * Review content in the master branch.
+    * Add some content (to the first page).
+    * Update master branch.
+ 
+    **Add more content**
+    * Continuously add more content.
+    * Add an overview of the system on the first page.
+
+    **Website details**
+    * Move "Impressum | Datenschutz" link to footer.
+    * Add a favicon and logo.
+    * Self-host Google Fonts.
+

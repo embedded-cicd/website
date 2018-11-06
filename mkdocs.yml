@@ -1,1 +1,109 @@
-site_name: My Docs
+# Project information
+site_name: Embedded CI/CD
+site_description: A framework for building an individual CI/CD pipeline geared towards embedded systems and FOSS. Get started today!
+site_author: Matthias Kolja Miehl
+site_url: https://embedded-cicd.org/
+
+# Repository
+repo_name: makomi/embedded_cicd
+repo_url: https://github.com/makomi/embedded_cicd/
+#edit_uri: ""
+
+# Copyright
+copyright: GPLv3
+
+# Social media
+# -> Update data protection declaraction!
+#extra:
+#  social:
+#    - type: globe
+#      link: http://wobsite.net
+#    - type: github-alt
+#      link: https://github.com/makomi
+#    - type: twitter
+#      link: https://twitter.com/embedded_cicd
+
+# Configuration
+theme:
+  name: material
+  language: en
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  palette:
+    primary: indigo
+    accent: indigo
+
+  #logo: img/logo.png
+  logo:
+    icon: memory # build code # https://material.io/tools/icons/?style=baseline
+  #favicon: img/favicon.png
+
+  #font: false
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  shortcuts:
+    # https://keycode.info/
+    help:     191 # ?
+    next:      78 # n
+    previous:  80 # p
+    search:    83 # s
+
+  feature:
+    tabs: false
+
+# Plugins
+plugins:
+  - search
+    
+# Extensions
+# https://yakworks.github.io/mkdocs-material-components/cheat-sheet/
+# https://yakworks.github.io/mkdocs-material-components/blocks/
+markdown_extensions:
+  - markdown.extensions.admonition # https://squidfunk.github.io/mkdocs-material/extensions/admonition/#types
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.fenced_code
+  - markdown.extensions.footnotes
+  # The following extensions are activated by default for MkDocs:
+  - markdown.extensions.meta
+  - markdown.extensions.nl2br
+  - markdown.extensions.sane_lists
+  - markdown.extensions.smarty
+  - markdown.extensions.tables
+  - markdown.extensions.toc:
+      permalink: true
+  # The following extensions are recommended to be used together with the Material theme:
+  # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/
+  #- pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation
+nav:
+  - Home: index.mkd
+  - FAQ: faq.mkd
+  - Legal matters:
+    - License: license.mkd
+    - Impressum: impressum.mkd
+    - Datenschutz: datenschutz.mkd
+  - About: about.mkd
+
