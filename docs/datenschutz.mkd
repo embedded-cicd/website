@@ -153,6 +153,17 @@ Wir, bzw. unser Hostinganbieter, erhebt auf Grundlage unserer berechtigten Inter
 Logfile-Informationen werden aus Sicherheitsgründen (z.B. zur Aufklärung von Missbrauchs- oder Betrugshandlungen) für die Dauer von maximal 7 Tagen gespeichert und danach gelöscht. Daten, deren weitere Aufbewahrung zu Beweiszwecken erforderlich ist, sind bis zur endgültigen Klärung des jeweiligen Vorfalls von der Löschung ausgenommen.
 
 
+## Content-Delivery-Network von Cloudflare
+
+Wir setzen ein so genanntes "Content Delivery Network" (CDN), angeboten von Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, USA, ein. Cloudflare ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie, das europäische Datenschutzrecht einzuhalten (https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0&status=Active).
+
+Ein CDN ist ein Dienst, mit dessen Hilfe Inhalte unseres Onlineangebotes, insbesondere große Mediendateien, wie Grafiken oder Skripte mit Hilfe regional verteilter und über das Internet verbundener Server, schneller ausgeliefert werden. Die Verarbeitung der Daten der Nutzer erfolgt alleine zu den vorgenannten Zwecken und der Aufrechterhaltung der Sicherheit und Funktionsfähigkeit des CDN.
+
+Die Nutzung erfolgt auf Grundlage unserer berechtigten Interessen, d.h. Interesse an einer sicheren und effizienten Bereitstellung, Analyse sowie Optimierung unseres Onlineangebotes gem. Art. 6 Abs. 1 lit. f. DSGVO.
+
+Weitere Informationen erhalten Sie in der Datenschutzerklärung von Cloudflare: https://www.cloudflare.com/security-policy.
+
+
 ## Google Fonts
 
 Wir binden die Schriftarten ("Google Fonts") des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein.
