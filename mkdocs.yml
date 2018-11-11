@@ -10,7 +10,7 @@ repo_url: https://github.com/makomi/embedded_cicd/
 #edit_uri: ""
 
 # Copyright
-copyright: GPLv3
+#copyright: GPLv3
 
 # Social media
 # -> Update data protection declaraction!
@@ -25,16 +25,22 @@ copyright: GPLv3
 
 # Configuration
 theme:
-  name: material
-  language: en
+  #name: material
+  name: null
+  custom_dir: material
 
-  # Don't include MkDocs' JavaScript
+  # Don't include MkDocs' JavaScript.
+  # See ./material/mkdocs_theme.yml for details.
   include_search_page: false
   search_index_only: true
+
+  language: en
 
   palette:
     primary: indigo
     accent: indigo
+
+  favicon: assets/images/favicon.png
 
   #logo: img/logo.png
   logo:
