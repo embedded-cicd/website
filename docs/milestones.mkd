@@ -1,0 +1,75 @@
+# Milestones
+
+Overview of our goals and the associated tasks.
+
+## Platform
+
+Establish an online presence suitable for presenting the project.
+
+* [X] Create a [GitHub repo](https://github.com/makomi/embedded_cicd/).
+* [X] Set up legally watertight website with respect to German law ([Impressum](impressum.mkd), [Datenschutz](datenschutz.mkd)).
+* [X] Flesh out its structure and add basic project information.
+* [ ] Material for MkDocs: Fix disappearing tabs.
+* [ ] Website details: favicon/logo + self-host *Google Fonts*.
+
+
+## Automated builds and release candidates
+
+This replaces our current infrastructure and provides the foundation for further improvements.
+
+* [ ] Specify our requirements for a combination of build server and release candidate system.
+* [ ] Select the best tools for the task.
+* [ ] Implement it.
+* [ ] Document it.
+    e.g. add an overview of the system to the first page.
+* [ ] Set it up in our work environment.
+* [ ] Evaluate and improve it over the course of 3 months.
+* [ ] Replace our old infrastructure.
+
+
+## Metrics and automated tests
+
+Evaluate the current approach and add simple quality gates that reduce the dev team's workload. This will help us decide which steps shall be taken next and give us some time to think about the topic as a team.
+
+* [ ] Gather and display metrics
+    * Bug injection rate
+    * Number of warnings.
+
+* [ ] Evaluate the metrics
+    * Are the metrics useful?
+    * Compare current system to the previous one.
+    * Replace unuseful metrics with useful metrics.
+
+* [ ] Add automated tests.
+    * Static code analysis.
+    * Ensure specific function calls are restricted to certain parts of our code (layers, modules).
+    * Check for adherence to Git Best Practices.
+
+
+## Unit tests
+
+
+## Functional tests (SiL)
+
+* [ ] Document the sub-system architecture.
+
+
+## Functional tests (HiL)
+
+* [ ] Document the sub-system architecture.
+
+
+## Acceptance tests
+
+
+## Automated integration
+
+
+## Automated deployment
+
+
+## HiL with real-time simulation loop
+
+
+## Integration tests
+

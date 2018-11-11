@@ -1,0 +1,14 @@
+Have a look at the [milestones](milestones.mkd) to see what we are currently working on.
+
+You can contact us via [email](impressum.mkd) as well as GitHub issues or pull requests:
+
+1. [Fork it][fork]
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit all your changes: `git commit -am 'add some feature'`
+4. Push to your feature branch: `git push origin my-new-feature`
+5. Submit a [pull request][pr]
+
+[fork]: https://help.github.com/articles/fork-a-repo/
+[pr]: https://help.github.com/articles/creating-a-pull-request/
+[project-website]: http://github.com/makomi/embedded_cicd/
+

@@ -1,1 +1,9 @@
 # About
+
+## Who are we?
+
+Software developers with an interest in easily accessible CI/CD pipelines for embedded systems.
+
+[Get in contact.](impressum.mkd)
+
+

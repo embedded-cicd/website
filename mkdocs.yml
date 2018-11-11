@@ -60,7 +60,7 @@ theme:
     search:    83 # s
 
   feature:
-    tabs: false
+    tabs: true
 
 # Plugins
 plugins:
@@ -84,6 +84,7 @@ markdown_extensions:
   - markdown.extensions.tables
   - markdown.extensions.toc:
       permalink: true
+      separator: "_"
   # The following extensions are recommended to be used together with the Material theme:
   # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/
   #- pymdownx.arithmatex
@@ -105,11 +106,30 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - Home: index.mkd
-  - FAQ: faq.mkd
-  - Legal matters:
-    - License: license.mkd
-    - Impressum: impressum.mkd
-    - Datenschutz: datenschutz.mkd
-  - About: about.mkd
+  - Overview:
+    - Welcome: index.mkd
+    - 'Getting started': getting_started.mkd
+    - 'Release notes': release_notes.mkd
+    - Milestones: milestones.mkd
+    - Contributing: contributing.mkd
+    - 'Legal matters':
+      - License: license.mkd
+      - Impressum: impressum.mkd
+      - Datenschutz: datenschutz.mkd
+    - About: about.mkd
+  - 'Body of Knowledge':
+    - Introduction: body_of_knowledge/index.mkd
+    - Glossary: body_of_knowledge/glossary.mkd
+    - Principles:
+      - CI/CD: body_of_knowledge/cicd.mkd
+      - Testing: body_of_knowledge/testing.mkd
+    - Architecture: body_of_knowledge/architecture.mkd
+    - Resources: body_of_knowledge/resources.mkd
+    - Tools: body_of_knowledge/tools.mkd
+  - 'Automatic Builds':
+    - Introduction: automatic_builds/index.mkd
+    - Requirements: automatic_builds/requirements.mkd
+  - 'Release Candidates':
+    - Introduction: release_candidates/index.mkd
+    - Requirements: release_candidates/requirements.mkd
 

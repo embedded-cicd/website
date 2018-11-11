@@ -1,0 +1,2 @@
+Single most informative text on this topic: [CI for Embedded Systems](https://jamesmunns.com/blog/hardware-ci-overview/), James Munns (2017-05-07)
+

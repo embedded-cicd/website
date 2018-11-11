@@ -1,18 +1,47 @@
 # Welcome
 
-!!! todo
-    **Add basic content**
-    * Add milestones.
-    * Review content in the master branch.
-    * Add some content (to the first page).
-    * Update master branch.
- 
-    **Add more content**
-    * Continuously add more content.
-    * Add an overview of the system on the first page.
+**<em>Embedded CI/CD</em> is striving to be a framework (software + know-how) for helping you build your individual test, integration, and deployment (CI/CD) pipeline for embedded systems development.**
 
-    **Website details**
-    * Move "Impressum | Datenschutz" link to footer.
-    * Add a favicon and logo.
-    * Self-host Google Fonts.
+It is geared towards FOSS projects and small companies. Its focus lies on getting you started quickly and allowing you to use the tools you want.
 
+??? Note "Note: This project is just getting off the ground (pre-alpha)."
+    Many parts of this website are not ready yet - some parts are missing entirely. Feel free to look around. You can expect more in the middle of 2019. Have a look at the [milestones](milestones.mkd) to see what lies ahead.
+
+    Current goal: [Automated Builds and Release Candiddates](milestones/#automated_builds_and_release_candidates)
+
+
+## Motivation
+It currently exists no easy way to set up a simple extensible CI/CD pipeline for embedded systems.
+
+It seems you have to do all the integration of different tools yourself, if you want to do CI/CD for embedded software - especially if that includes SiL or HiL testing. We want to build a solution, where you just have to clone a repo and follow the installation guide to get a minimal running system that you can then configure based on what you need.
+
+Ideally, the project will explain to you all necessary terms and concepts making it useful for CI/CD beginners as well.
+
+We are interested in this project due to several reasons:
+
+* Build the infrastructure we currently need.
+* It seems there is no easy way to set up this sort of infrastructure and we want to change that.
+
+
+## Goals
+
+The ultimate goal is to create a freely available body of knowledge that lowers the barrier of entry to CI/CD for small teams/ newcommers to automate the build, test, and deployment of software for embedded systems. We would like to see such a pipline being implemented on Free and Open Source Software (FOSS).
+
+We consider this an interesting goal, as there seems to be a shortage of ready to use information (experiences, schematics, frameworks) in regard to automated HiL and SiL tests. On the other hand, the rising popularity of IoT increases the attack surface of the embedded devices and makes it ever more important that all companies and also FOSS projects have access to the knowledge necessary for implementing the whole CI/CD pipeline for their embedded systems.
+
+These are some topics the project might be cover - just from the top of our heads:
+
+* CI: build and (functional) test automation
+* CD: deployment automation and monitoring
+* Possible system and sub-system architectures
+  including benefits and shortcommings
+* Available software that can be used
+* Resources: Books, blogs, websites, ...
+* To a lesser extend: How CI/CD complements unit testing and TDD.
+
+See the [milestones](milestones.mkd) for what is currently planned.
+
+
+## Comparable projects
+
+**Please add them.**
