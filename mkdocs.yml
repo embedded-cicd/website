@@ -27,10 +27,10 @@ repo_url: https://github.com/makomi/embedded_cicd/
 theme:
   #name: material
   name: null
-  custom_dir: material
+  custom_dir: material_for_mkdocs
 
   # Don't include MkDocs' JavaScript.
-  # See ./material/mkdocs_theme.yml for details.
+  # See ./material_for_mkdocs/mkdocs_theme.yml for details.
   include_search_page: false
   search_index_only: true
 
