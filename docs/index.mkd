@@ -4,10 +4,12 @@
 
 It is geared towards FOSS projects and small companies. Its focus lies on getting you started quickly and allowing you to use the tools you want.
 
-??? Note "Note: This project is just getting off the ground (pre-alpha)."
-    Many parts of this website are not ready yet - some parts are missing entirely. Feel free to look around. You can expect more in the middle of 2019. Have a look at the [milestones](milestones.mkd) to see what lies ahead.
+!!! Note "Note: This project is just getting off the ground (pre-alpha)."
+    We are currently working towards the 2nd milestone "[Automated Builds and Release Candiddates](milestones/#automated_builds_and_release_candidates)". At the same time we are defining the scope of the project itself.
 
-    Current goal: [Automated Builds and Release Candiddates](milestones/#automated_builds_and_release_candidates)
+    Right now this website is just a scaffold with most parts being placeholders. Feel free to have a look around. You can expect more substantial information in the middle of 2019. Have a look at the [milestones](milestones.mkd) to see what lies ahead.
+
+    [Write us an email](impressum.mkd) if you want to get in touch and/or be notified once we reach our 2nd milestone.
 
 
 ## Motivation

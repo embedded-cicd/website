@@ -10,7 +10,8 @@ Establish an online presence suitable for presenting the project.
 * [X] Set up legally watertight website with respect to German law ([Impressum](impressum.mkd), [Datenschutz](datenschutz.mkd)).
 * [X] Flesh out its structure and add basic project information.
 * [ ] Material for MkDocs: Fix disappearing tabs.
-* [ ] Website details: favicon/logo + self-host *Google Fonts*.
+* [ ] Website favicon + logo.
+* [ ] Self-host *Google Fonts* (discussions: [1](https://github.com/squidfunk/mkdocs-material/issues/739), [2](https://github.com/google/fonts/issues/1495)).
 
 
 ## Automated builds and release candidates
@@ -40,10 +41,13 @@ Evaluate the current approach and add simple quality gates that reduce the dev t
     * Compare current system to the previous one.
     * Replace unuseful metrics with useful metrics.
 
-* [ ] Add automated tests.
+* [ ] Add automated (CI) tests.
     * Static code analysis.
+    * Code quality.
+    * Style checkers
     * Ensure specific function calls are restricted to certain parts of our code (layers, modules).
     * Check for adherence to Git Best Practices.
+    * Smoke tests.
 
 
 ## Unit tests

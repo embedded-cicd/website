@@ -1,6 +1,9 @@
 
 ## CI/CD
 * [Argo](https://argoproj.io/): Open source Kubernetes native workflows, events, CI and CD ([Hacker News](https://news.ycombinator.com/item?id=18422935))
-* TeamCity
-* BuildBot
+* [TeamCity](https://www.jetbrains.com/teamcity/)
+* [BuildBot](https://github.com/buildbot/buildbot)
+
+## Metrics
+* [Toodles](https://github.com/aviaviavi/toodles): Project management directly from the TODO's in your codebase
 
