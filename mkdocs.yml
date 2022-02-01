@@ -47,10 +47,10 @@ theme:
     icon: memory # build code # https://material.io/tools/icons/?style=baseline
   #favicon: img/favicon.png
 
-  #font: false
-  font:
-    text: Roboto
-    code: Roboto Mono
+  font: false
+  #font:
+  #  text: Roboto
+  #  code: Roboto Mono
 
   shortcuts:
     # https://keycode.info/
